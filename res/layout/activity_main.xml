@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I'm the main Activity"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    
+    <Button
+        android:id="@+id/button_addB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="takeAction"
+        android:text="Add Fragment B" />
+    
+    <Button
+        android:id="@+id/button_addC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="takeAction"
+        android:text="Add Fragment C" />
+    
+    <Button
+        android:id="@+id/button_repl_B_by_C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="takeAction"
+        android:text="Replace Fragment B by C" />
+    
+    <Button
+        android:id="@+id/button_repl_C_by_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="takeAction"
+        android:text="REpalce Fragment C by B" />
+    
+    <Button
+        android:id="@+id/button_remB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="takeAction"
+        android:text="Remove Fragment B" />
+    
+    <Button
+        android:id="@+id/button_remC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="takeAction"
+        android:text="Remove Fragment C" />
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+        <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+
+</LinearLayout>
