@@ -25,6 +25,7 @@ public class MainActivity extends ActionBarActivity {
         frg = new Fagment_1();
         trn.add(R.id.linearLayout1, frg);
         trn.commit();
+        Log.d("DEB","This lise is added to test git version control");
     }
 
     public void takeAction(View v) {
